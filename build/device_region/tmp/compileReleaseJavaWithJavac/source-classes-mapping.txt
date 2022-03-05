@@ -1,0 +1,2 @@
+com/example/device_region/BuildConfig.java
+ com.example.device_region.BuildConfig

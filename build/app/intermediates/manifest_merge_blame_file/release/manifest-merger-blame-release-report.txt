@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bulletin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:4:22-78
+13
+14    <application
+14-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:5:4-44:19
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] /Users/optimus/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="Daily Bulletin"
+17-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:6:9-39
+18        android:usesCleartextTraffic="true" >
+18-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:8:8-43
+19        <activity
+19-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:10:9-38:20
+20            android:name="com.example.bulletin.MainActivity"
+20-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:11:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:14:13-163
+22            android:hardwareAccelerated="true"
+22-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:15:13-47
+23            android:launchMode="singleTop"
+23-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:12:13-43
+24            android:theme="@style/LaunchTheme"
+24-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:13:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:16:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:21:13-24:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:22:15-70
+35                android:resource="@style/NormalTheme" />
+35-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:23:15-52
+36            <!--
+37                 Displays an Android View that continues showing the launch screen
+38                 Drawable until Flutter paints its first frame, then this splash
+39                 screen fades out. A splash screen is useful to avoid any visual
+40                 gap between the end of Android's launch screen and the painting of
+41                 Flutter's first frame.
+42            -->
+43            <meta-data
+43-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:30:13-33:17
+44                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+44-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:31:15-79
+45                android:resource="@drawable/launch_background" />
+45-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:32:15-61
+46
+47            <intent-filter>
+47-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:34:13-37:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:35:17-68
+48-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:35:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:36:17-76
+50-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:36:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:41:9-43:33
+58            android:name="flutterEmbedding"
+58-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:42:13-44
+59            android:value="2" />
+59-->/Users/optimus/StudioProjects/bulletin/android/app/src/main/AndroidManifest.xml:43:13-30
+60
+61        <activity
+61-->[:url_launcher_android] /Users/optimus/StudioProjects/bulletin/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+62            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+62-->[:url_launcher_android] /Users/optimus/StudioProjects/bulletin/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+63            android:exported="false"
+63-->[:url_launcher_android] /Users/optimus/StudioProjects/bulletin/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+64            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+64-->[:url_launcher_android] /Users/optimus/StudioProjects/bulletin/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+65    </application>
+66
+67</manifest>
